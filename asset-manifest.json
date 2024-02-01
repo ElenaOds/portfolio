@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.36454a44.css",
-    "main.js": "/portfolio/static/js/main.6e06d787.js",
-    "static/js/415.7a92fadb.chunk.js": "/portfolio/static/js/415.7a92fadb.chunk.js",
-    "static/js/405.7da57a4e.chunk.js": "/portfolio/static/js/405.7da57a4e.chunk.js",
+    "main.css": "/portfolio/static/css/main.89552d65.css",
+    "main.js": "/portfolio/static/js/main.f121425c.js",
+    "static/js/405.8396a267.chunk.js": "/portfolio/static/js/405.8396a267.chunk.js",
+    "static/js/155.88317375.chunk.js": "/portfolio/static/js/155.88317375.chunk.js",
     "static/js/152.c4c4e6ea.chunk.js": "/portfolio/static/js/152.c4c4e6ea.chunk.js",
+    "static/media/hero-desktop@2x.jpg": "/portfolio/static/media/hero-desktop@2x.843df430ffb9b7d89234.jpg",
+    "static/media/hero-tablet@2x.jpg": "/portfolio/static/media/hero-tablet@2x.2414f94692d5b1def3a4.jpg",
+    "static/media/hero-desktop@1x.jpg": "/portfolio/static/media/hero-desktop@1x.b7abbe38cbc29249b727.jpg",
+    "static/media/hero-mobile@1x.jpg": "/portfolio/static/media/hero-mobile@1x.a0f0f5c6fa02cfa46583.jpg",
+    "static/media/hero-tablet@1x.jpg": "/portfolio/static/media/hero-tablet@1x.187abb31858371399219.jpg",
     "index.html": "/portfolio/index.html",
-    "main.36454a44.css.map": "/portfolio/static/css/main.36454a44.css.map",
-    "main.6e06d787.js.map": "/portfolio/static/js/main.6e06d787.js.map",
-    "415.7a92fadb.chunk.js.map": "/portfolio/static/js/415.7a92fadb.chunk.js.map",
-    "405.7da57a4e.chunk.js.map": "/portfolio/static/js/405.7da57a4e.chunk.js.map"
+    "main.89552d65.css.map": "/portfolio/static/css/main.89552d65.css.map",
+    "main.f121425c.js.map": "/portfolio/static/js/main.f121425c.js.map",
+    "405.8396a267.chunk.js.map": "/portfolio/static/js/405.8396a267.chunk.js.map",
+    "155.88317375.chunk.js.map": "/portfolio/static/js/155.88317375.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36454a44.css",
-    "static/js/main.6e06d787.js"
+    "static/css/main.89552d65.css",
+    "static/js/main.f121425c.js"
   ]
 }
