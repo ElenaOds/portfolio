@@ -1,21 +1,40 @@
 import styled from 'styled-components';
-import { NavHashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
 
 export const StyledHeader = styled.header`
+    width: 100%;
     background-color: var(--bgd-header);
-    padding: 20px 40px;
+    padding: 10px 20px;
+
+    @media screen and (min-width: 768px) {
+        padding: 20px 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 20px 40px;
+    }
+    
 `;
 
 export const Nav = styled.nav`
     display: flex;
     justify-content: end;
-    gap: 30px;
+    
 `;
 
-export const StyledLink = styled(NavHashLink)`
+export const List = styled.ul`
+    display: flex;
+    gap: 20px;
+
+    @media screen and (min-width: 768px) {
+        gap: 30px;
+    }
+`
+
+export const StyledLink = styled(NavLink)`
     position: relative;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -37,5 +56,15 @@ export const StyledLink = styled(NavHashLink)`
         border-radius: 2px;
         background-color: currentColor;
     }
+
+    @media screen and (min-width: 768px) {
+        font-size: 16px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        font-size: 18px;
+    }
 `
+
+
 

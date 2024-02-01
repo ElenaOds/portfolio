@@ -1,15 +1,15 @@
 import React from 'react';
-import { StyledHeader, Nav, StyledLink } from './styles/Header.styled';
+import { StyledHeader, Nav, StyledLink, List } from './styles/Header.styled';
 
 const Header = () => {
 
   return (
     <StyledHeader>
       <Nav>
-      <StyledLink to="/#about" aria-label='about'>About</StyledLink>
-      <StyledLink to="technologies" aria-label='technologies'>Technologies</StyledLink>
-      <StyledLink to="projects" aria-label='projects'>Projects</StyledLink>
-      <StyledLink to="contact"aria-label='contact'>Contact</StyledLink>
+        <List>
+          <li><StyledLink to="about" aria-label='about'>About</StyledLink></li>
+          <li><StyledLink to="projects" aria-label='projects'>Projects</StyledLink></li>
+        </List>
       </Nav>
     </StyledHeader>
   )
