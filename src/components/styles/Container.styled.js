@@ -9,16 +9,16 @@ export const Container = styled.div`
  
 
     @media screen and (min-width: 480px) {
-        width: 480px;
+        // width: 480px;
     }
 
     @media screen and (min-width: 768px) {
-        width: 768px;
+        // width: 768px;
         padding: 0 30px;
     }
 
     @media screen and (min-width: 1280px) {
-        width: 1280px;
+        // width: 1280px;
         padding: 0 40px;
     }
 `

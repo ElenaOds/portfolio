@@ -1,17 +1,19 @@
 import React from 'react';
-import { Overlay, Title, Wrapper } from './styles/Hero.styled';
-import { Container } from './styles/Container.styled'
+import { Overlay, Title, Wrapper, Subtitle } from './styles/Hero.styled';
+import { Container } from './styles/Container.styled';
+import { Button } from './styles/Button.styled';
+
 
 
 const Hero = () => {
   return (
         <section>
-             <Overlay>
+            <Overlay>
             <Container>
                 <Wrapper>
-                <Title>Olena Pedko 
-                <br/> frontend developer</Title>
-                <button>Contact me</button>  
+                <Title>Olena Pedko</Title>
+                 <Subtitle>Frontend developer</Subtitle>
+                <Button>Get in touch</Button>  
                 </Wrapper>
             </Container>
             </Overlay>

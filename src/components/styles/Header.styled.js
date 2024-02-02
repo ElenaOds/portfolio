@@ -44,8 +44,13 @@ export const StyledLink = styled(NavLink)`
     &.active {
         color: #4ce44c;
     }
+    &:hover,
+    &:focus {
+        outline: none;
+    }
 
-    &:hover::after {
+    &:hover::after,
+    &:focus::after {
         position: absolute;
         display: block;
         content: '';
