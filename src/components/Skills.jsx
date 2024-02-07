@@ -9,12 +9,11 @@ const Skills = () => {
   return (
     <Section>
         <Container>
-             <SectionTitle>SKILLS</SectionTitle>
-
+             <SectionTitle>TECHNICAL SKILLS</SectionTitle>
              <List>
                 <ListItem>
-                    <Text>HTML</Text>
-                    <HtmlIcon/>
+                  <Text>HTML</Text>
+                  <HtmlIcon/>
                 </ListItem>
                 <ListItem>
                 <Text>CSS</Text>
