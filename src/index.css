@@ -2,7 +2,8 @@
 
 :root {
   --bgd-color: #eeeff4;
-  --bgd-header: #6b63ff;
+  --bgd-header: linear-gradient(-45deg, #9925ea, #338aff, #9925ea);
+  --title-color: -webkit-linear-gradient(#9925ea, #338aff, #9925ea);
   --text-header: #fff;
   --textColor: #173D33;
   

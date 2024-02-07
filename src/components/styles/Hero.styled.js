@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 import img_mob1 from '../../assets/hero-mobile@1x.jpg';
 import img_mob2 from '../../assets/hero-mobile@1x.jpg';
 import img_tab1 from '../../assets/hero-tablet@1x.jpg';
@@ -29,7 +30,6 @@ export const Overlay = styled.div`
         }
     }
 
-
     @media screen and (min-width: 1280px) {
         background-image: url(${img_desk1}));
         height: 70vh;
@@ -59,8 +59,9 @@ const text = `
     font-size: 36px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--bgd-header);
-    text-shadow: 0 4px 4px #fff;
+    background: -webkit-linear-gradient(-45deg, #9925ea, #338aff, #9925ea);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
     @media screen and (min-width: 768px) {
         font-size: 50px;

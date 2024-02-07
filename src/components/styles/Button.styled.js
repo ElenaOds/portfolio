@@ -11,15 +11,18 @@ export const Button = styled.a`
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-header);
-    background-color: var(--bgd-header);
+    background: var(--bgd-header);
+    background-size: 400%;
+    background-position: 90% 0;
+    transition: background 0.8s;
     border: none;
     outline: none;
-    border-radius: 8px;
+    border-radius: 24px;
     cursor: pointer;
 
     &:hover,
     &:focus {
-        background-color: rgba(107, 99, 255, 0.7);
+        background-position: 185% 50%;
     }
 
     @media screen and (min-width: 768px) {
@@ -30,9 +33,9 @@ export const Button = styled.a`
     }
 
     @media screen and (min-width: 1280px) {
-        padding: 8px;
-        width: 120px;
-        height: 40px;
+        padding: 14px;
+        width: 180px;
+        height: 48px;
         font-size: 18px;
     }
 `;

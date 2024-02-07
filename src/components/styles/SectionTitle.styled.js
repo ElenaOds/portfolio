@@ -6,7 +6,10 @@ export const SectionTitle = styled.h2`
     font-size: 24px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--textColor);
+    background: var(--title-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     position: relative;
     margin-bottom: 32px;
     overflow: hidden;
@@ -28,7 +31,7 @@ export const SectionTitle = styled.h2`
         margin-left: 14px;
         width: 100%;
         height: 3px;
-        background-color: #173D33;
+        background: var(--bgd-header);
     }
 `;
 

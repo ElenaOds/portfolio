@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 export const StyledHeader = styled.header`
     width: 100%;
-    background-color: var(--bgd-header);
+    background: var(--bgd-header);
     padding: 10px 20px;
 
     @media screen and (min-width: 768px) {
@@ -63,11 +63,11 @@ export const StyledLink = styled(NavLink)`
     }
 
     @media screen and (min-width: 768px) {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     @media screen and (min-width: 1280px) {
-        font-size: 18px;
+        font-size: 20px;
     }
 `
 
