@@ -1,0 +1,16 @@
+import styled from 'styled-components';
+
+export const StyledFooter = styled.footer`
+    width: 100%;
+    background: var(--bgd-header);
+    padding: 10px 20px;
+
+    @media screen and (min-width: 768px) {
+        padding: 20px 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        padding: 20px 40px;
+    }
+    
+`

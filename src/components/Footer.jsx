@@ -1,10 +1,10 @@
-import React from 'react'
+import { StyledFooter } from './styles/Footer.styled';
 
 const Footer = () => {
   return (
-    <footer id='contact'>
+    <StyledFooter id='contact'>
       <p>Footer</p>
-    </footer>
+    </StyledFooter>
   )
 }
 
