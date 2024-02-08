@@ -1,11 +1,16 @@
-import { StyledFooter } from './styles/Footer.styled';
+import { StyledFooter, LinksList, StyledGithub, StyledLinkedin, StyledTeletram } from './styles/Footer.styled';
+
 
 const Footer = () => {
   return (
     <StyledFooter id='contact'>
-      <p>Footer</p>
+    <LinksList>
+      <li><StyledGithub/></li>
+      <li><StyledLinkedin/></li>
+      <li><StyledTeletram/></li>
+    </LinksList>
     </StyledFooter>
   )
 }
 
-export default Footer
+export default Footer;
