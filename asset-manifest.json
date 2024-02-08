@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3209069e.css",
-    "main.js": "/portfolio/static/js/main.bcffd748.js",
+    "main.js": "/portfolio/static/js/main.5f72942f.js",
     "static/css/131.a6f3c62d.chunk.css": "/portfolio/static/css/131.a6f3c62d.chunk.css",
     "static/js/131.f35e6378.chunk.js": "/portfolio/static/js/131.f35e6378.chunk.js",
     "static/js/405.7da57a4e.chunk.js": "/portfolio/static/js/405.7da57a4e.chunk.js",
@@ -30,12 +30,15 @@
     "static/media/redux.svg": "/portfolio/static/media/redux.59f428ebf1c8b3a3fcec9ee28b57c9da.svg",
     "static/media/scss.svg": "/portfolio/static/media/scss.67cd0525916c4cdea4eb3abd8ae11137.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/telegram.svg": "/portfolio/static/media/telegram.b758440350c3e3a1b66be65e69289ec6.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.7ff51b2ba4c264a8e5a9bbe13388f0fb.svg",
     "static/media/ts.svg": "/portfolio/static/media/ts.da47f77824fab48dafd99485194e6bae.svg",
     "static/media/js.svg": "/portfolio/static/media/js.7bb08cdbe94fc2dfc1b51be8c2dae551.svg",
     "static/media/css.svg": "/portfolio/static/media/css.315b8fdb9dbf75ae965b80bf368895cd.svg",
     "static/media/html.svg": "/portfolio/static/media/html.0107c93943a8f415b5db64ebb0a9d12d.svg",
+    "static/media/linkedin.svg": "/portfolio/static/media/linkedin.21d1c80c9f081ddcaef37c8f0577cd19.svg",
     "main.3209069e.css.map": "/portfolio/static/css/main.3209069e.css.map",
-    "main.bcffd748.js.map": "/portfolio/static/js/main.bcffd748.js.map",
+    "main.5f72942f.js.map": "/portfolio/static/js/main.5f72942f.js.map",
     "131.a6f3c62d.chunk.css.map": "/portfolio/static/css/131.a6f3c62d.chunk.css.map",
     "131.f35e6378.chunk.js.map": "/portfolio/static/js/131.f35e6378.chunk.js.map",
     "405.7da57a4e.chunk.js.map": "/portfolio/static/js/405.7da57a4e.chunk.js.map",
@@ -43,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.3209069e.css",
-    "static/js/main.bcffd748.js"
+    "static/js/main.5f72942f.js"
   ]
 }
