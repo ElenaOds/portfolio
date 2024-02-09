@@ -17,7 +17,7 @@ const Certificates = () => {
       };
 
   return (
-    <Section>
+    <Section id='certificates'>
     <Container>
       <SectionTitle>CERTIFICATES</SectionTitle> 
       <List>

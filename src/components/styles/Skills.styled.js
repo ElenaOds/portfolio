@@ -29,68 +29,6 @@ export const List = styled.ul`
     }
 `;
 
-export const Text = styled.p`
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--textColor);
-    margin-bottom: 5px;
-    text-align: center;
-    width: 100%;
-    background-color: 	rgb(211, 211, 211, 0.3);
-    border-radius: 8px;
-    padding: 5px;
-    transform: translateY(0);
-    opacity: 0;
-    
-
-    @media screen and (min-width: 768px) {
-        font-size: 14px;
-        margin-bottom: 8px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-`
-
-export const ListItem = styled.li`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: calc((100% - 120px) / 6);
-    cursor: pointer;
-
-    @media screen and (min-width: 768px) {
-        width: calc((100% - 150px) / 6);
-    }
-
-    @media screen and (min-width: 1280px) {
-        width: 100%  
-    }
-
-    &:hover ${Text},
-    &:focus ${Text},{
-        opacity: 1;
-        animation: move-up 500ms ease-in;
-        @keyframes move-up {
-            from {
-              transform: translateY(20px);
-              opacity: 0;
-            }
-            to {
-              transform: translateY(0);
-              opacity: 1;
-            }
-          }
-    }
-
-`
-
-
 
 export const HtmlIcon = styled(Html)`
     width: 50px;

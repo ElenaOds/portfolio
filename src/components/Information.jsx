@@ -5,7 +5,7 @@ import { List, Title, Text } from './styles/Information.styled';
 
 const Information = () => {
   return (
-    <Section>
+    <Section id='information'>
     <Container>
       <SectionTitle>INFORMATION</SectionTitle> 
       <List>
