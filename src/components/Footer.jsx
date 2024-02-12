@@ -18,11 +18,11 @@ const Footer = () => {
 
     <List>
       <li><StyledTextLink to="/about/#skills" aria-label="skills">Skills</StyledTextLink></li>
-      <li><StyledLink to="projects" aria-label='projects'>Projects</StyledLink></li>
+      <li><StyledTextLink to="projects" aria-label='projects'>Projects</StyledTextLink></li>
       <li><StyledTextLink to="/about/#information" aria-label="projects">Information</StyledTextLink></li>
       <li><StyledTextLink to="/about/#certificates" aria-label="certificates">Certificates</StyledTextLink></li>
     </List>
-    <Text>© {date}. All rights are reserved. Developed by <a href="https://github.com/ElenaOds" aria-label="link to Github" rel="noopener noreferrer nofollow" target='_blank'>Olena Pedko</a></Text>
+    <Text>© {date}. All rights are reserved. Developed by <StyledLink href="https://github.com/ElenaOds" aria-label="link to Github" rel="noopener noreferrer nofollow" target='_blank'>Olena Pedko</StyledLink></Text>
     </StyledFooter>
   )
 }

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { HashLink } from 'react-router-hash-link';
 
-export const Button = styled.a`
+export const Button = styled(HashLink)`
     display: inline-block;
     text-align: center;
     padding: 6px;
@@ -19,6 +20,7 @@ export const Button = styled.a`
     outline: none;
     border-radius: 24px;
     cursor: pointer;
+    text-decoration: none;
 
     &:hover,
     &:focus {

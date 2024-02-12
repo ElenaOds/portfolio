@@ -21,6 +21,13 @@ const Information = () => {
             <Text>Ukrainian - native</Text>
             <Text>Russian - fluent</Text>
         </li>
+
+        <li>
+            <Title>Experience</Title> 
+            <Text>September 2023 - now</Text>
+            <Text>Company - IT Sprout</Text>
+            <Text>Position - Frontend developer (internship)</Text>
+        </li>
       </List>
       
     </Container>

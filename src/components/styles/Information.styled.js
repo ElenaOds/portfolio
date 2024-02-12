@@ -19,7 +19,15 @@ const text = `
 
 export const List = styled.ul`
     display: flex;
-    gap: 50px;
+    gap: 20px;
+
+    @media screen and (min-width: 768px) {
+        gap: 50px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        gap: 60px;  
+    }
 `;
 
 export const Title = styled.h3`

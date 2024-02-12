@@ -13,7 +13,7 @@ const Hero = () => {
                 <Wrapper>
                 <Title>Olena Pedko</Title>
                  <Subtitle>Frontend developer</Subtitle>
-                <Button>Get in touch</Button>  
+                <Button to="/about/#contact" aria-label="contact details">Get in touch</Button>  
                 </Wrapper>
             </Container>
             </Overlay>

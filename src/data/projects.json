@@ -1,0 +1,23 @@
+[
+    {
+      "id": "1",
+      "image": "marketplace-landing.jpg",
+      "title": "Heyboss | Marketplace",
+      "description": "Commercial web-site with responsive design to advertise marketplace of auto parts. A web-site consists of few pages with basic description of the project and forms to collect the feedback from potential clients",
+      "type": "commercial",
+      "technologies": ["JavaScript", "React", "i18n", "Bootstrap", "SCSS", "Typeform"],
+      "gihhub": "private",
+      "livePage": "https://promo.heyboss.online/"
+    },
+
+    {
+        "id": "2",
+        "image": "ecosolution.jpg",
+        "title": "Ecosolution",
+        "description": "Web-site with adaptibe design for the Company which cares about sustainable future producing modern energy solutions",
+        "type": "pet project",
+        "technologies": ["JavaScript", "React", "Emotion", "Swiper", "Formik", "Yup", "React-toastify"],
+        "gihhub": "https://github.com/ElenaOds/ecosolution",
+        "livePage": "https://elenaods.github.io/ecosolution/"
+      }
+  ]
