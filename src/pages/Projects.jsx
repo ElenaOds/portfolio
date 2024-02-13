@@ -1,35 +1,35 @@
 import { Section } from '../components/styles/Section.styled';
 import { Container } from '../components/styles/Container.styled';
+import { List, Item, Wrapper } from '../components/styles/ProjectsPage.styled';
 
 import Projects from '../data/projects.json';
+
 
 const Project = () => {
   return (
     <Section>
       <Container>
       <h1>Projects</h1>
-      <div>
-
-      {
-       Projects.map(({id, title, image, description, type, technologies, github, livePage}) => {
+      <List>
+      {Projects.map(({id, title, image, description, type, technologies, github, livePage}) => {
         return (
-          <div key={id}>
-              <p>{title}</p>
-              <p>{description}</p>
-              <img src={`assets/projects/${image}`} alt={title} />
-              <p>{type}</p>
-              <p>{technologies}</p>
-              <a href={github}>link to Github</a>
-              <a href={livePage}>live page</a>
-            
-            </div>
-          
+        
+        <Item key={id}>
+          <img src={image} alt={title} />
+          <Wrapper>
+          <p>Title: <span>{title}</span></p>
+          <p>Description: <span>{description}</span></p>
+          <p>Project type: <span>{type}</span></p>
+          <p>Stack: <span>{technologies}</span></p>
+          {github ? <a href={github}>link to Github</a> : <p>Link to Github: not available</p>}
+          <p><a href={livePage}>Link to live page</a></p>
+          </Wrapper>
+          </Item>
           
         )
-       })
-      }
+       })}
        
-      </div>
+      </List>
       </Container>
     </Section>
   )

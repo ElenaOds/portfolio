@@ -71,7 +71,7 @@ export const StyledLinkedin = styled(Linkedin)`
 
     &:hover,
     &:focus {
-        fill: #FFF388;
+        fill: var(--hover-color);
     }
 
     @media screen and (min-width: 768px) {
@@ -88,7 +88,7 @@ export const StyledTeletram = styled(Telegram)`
 
     &:hover,
     &:focus {
-        fill: #FFF388;
+        fill: var(--hover-color);
     }
 
     @media screen and (min-width: 768px) {
@@ -105,7 +105,7 @@ export const StyledTelephone = styled(Telephone)`
 
     &:hover,
     &:focus {
-        fill: #FFF388;
+        fill: var(--hover-color);
     }
 
     @media screen and (min-width: 768px) {
@@ -123,7 +123,7 @@ export const StyledEmail = styled(Email)`
 
     &:hover,
     &:focus {
-        fill: #FFF388;
+        fill: var(--hover-color);
     }
 
     @media screen and (min-width: 768px) {
@@ -154,7 +154,7 @@ export const StyledLink = styled.a`
     text-decoration: underline; 
 
     &:hover {
-        color: #FFF388;
+        color: var(--hover-color);
     }
 `;
 

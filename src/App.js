@@ -6,7 +6,7 @@ import Loader from './components/Loader';
 
 const About = lazy(() => import('./pages/About'));
 const Projects = lazy(() => import('./pages/Projects'));
-const ProjectDetails = lazy(() => import('./pages/ProjectDetails'));
+
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
           <Route index element ={<Navigate to="about"/>} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="projects/:projectId" element={<ProjectDetails/>}/>
           <Route path="*" element={<About />} />
           </Route>
         </Routes>
