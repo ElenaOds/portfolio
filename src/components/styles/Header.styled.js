@@ -49,17 +49,22 @@ export const StyledLink = styled(NavLink)`
         outline: none;
     }
 
-    &:hover::after,
-    &:focus::after {
+    &::after {
         position: absolute;
         display: block;
         content: '';
         bottom: -2;
-        left: 0;
-        width: 100%;
+        left: 50%;
+        width: 0;
         height: 2px;
-        border-radius: 2px;
-        background-color: currentColor;
+        background: currentColor;   
+        transition: width 0.3s ease 0s, left 0.3s ease 0s; 
+    }
+
+    &:hover:after,
+    &:focus:after {
+        width: 100%; 
+        left: 0; 
     }
 
     @media screen and (min-width: 768px) {

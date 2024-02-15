@@ -7,8 +7,12 @@ const Header = () => {
     <StyledHeader>
       <Nav>
         <List>
-          <li><StyledLink to="about" aria-label='about'>About</StyledLink></li>
-          <li><StyledLink to="projects" aria-label='projects'>Projects</StyledLink></li>
+          <li><StyledLink to="about" 
+          aria-label='about'
+          onClick={(e) => e.target.blur()}>About</StyledLink></li>
+          <li><StyledLink to="projects" 
+          aria-label='projects'
+          onClick={(e) => e.target.blur()}>Projects</StyledLink></li>
         </List>
       </Nav>
     </StyledHeader>

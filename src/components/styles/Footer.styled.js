@@ -160,9 +160,24 @@ export const StyledLink = styled.a`
 
 export const StyledTextLink = styled(HashLink)`
     ${text}
+    position: relative;
     
-    &:hover {
-        text-decoration: underline;
+    &::after {
+        position: absolute;
+        display: block;
+        content: '';
+        bottom: -2;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: currentColor;   
+        transition: width 0.3s ease 0s, left 0.3s ease 0s; 
+    }
+
+    &:hover:after,
+    &:focus:after {
+        width: 100%; 
+        left: 0; 
     }
 `
 

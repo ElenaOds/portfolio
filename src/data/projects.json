@@ -15,7 +15,7 @@
       "title": "Tweet application",
       "description": "Tweet application displays users' cards with possibility to follow/unfollow users and allows to set filter by 'all users', 'followed users' and 'unfollowed users' with 'Load more' button",
       "type": "pet project",
-      "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Redux", "Spinner", "MockApi"],
+      "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Redux", "Spinner", "MockApi", "Emotion"],
       "github": "https://github.com/ElenaOds/tweet-app",
       "livePage": "https://elenaods.github.io/tweet-app"
     },
@@ -81,7 +81,7 @@
       "title": "Ecosolution",
       "description": "Web-site for Energy Company with adaptive design, burger menu, fixed header, automatic counter, slider and accordion",
       "type": "pet project",
-      "technologies": ["JavaScript", "React", "Emotion", "Swiper", "Formik", "Yup", "React-toastify", "React-counup"],
+      "technologies": ["JavaScript", "React", "Emotion", "Swiper", "Formik", "Yup", "React-toastify", "React-countup"],
       "github": "https://github.com/ElenaOds/ecosolution",
       "livePage": "https://elenaods.github.io/ecosolution/"
     }

@@ -13,7 +13,9 @@ const Hero = () => {
                 <Wrapper>
                 <Title>Olena Pedko</Title>
                  <Subtitle>Frontend developer</Subtitle>
-                <Button to="/about/#contact" aria-label="contact details">Get in touch</Button>  
+                <Button to="/about/#contact" 
+                aria-label="contact details"
+                onClick={(e) => e.target.blur()}>Get in touch</Button>  
                 </Wrapper>
             </Container>
             </Overlay>

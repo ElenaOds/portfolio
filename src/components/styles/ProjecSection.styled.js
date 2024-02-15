@@ -5,7 +5,7 @@ export const StyledLink = styled(Link)`
 display: inline-block;
 font-weight: 400;
 font-size: 12px;
-line-height: 1.14;
+line-height: 1.2;
 letter-spacing: 0.02em;
 background: var(--bgd-header);
     -webkit-background-clip: text;
@@ -25,18 +25,39 @@ margin-top: 20px;
 }
 
 
-    &:hover::after,
-    &:focus::after {
-        position: absolute;
-        display: block;
-        content: '';
-        bottom: -2;
-        left: 0;
-        width: 100%;
-        height: 2px;
-        border-radius: 2px;
-        background: var(--bgd-header);
-    }
+&::after {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: -2;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--bgd-header);   
+    transition: width 0.3s ease 0s, left 0.3s ease 0s; 
+}
+
+&:hover:after,
+&:focus:after {
+    width: 100%; 
+    left: 0; 
+} &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    bottom: -2;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: var(--bgd-header);   
+    transition: width 0.3s ease 0s, left 0.3s ease 0s; 
+}
+
+&:hover:after,
+&:focus:after {
+    width: 100%; 
+    left: 0; 
+}
 
 
 `
