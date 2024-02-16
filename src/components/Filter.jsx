@@ -1,20 +1,12 @@
-import { Wrapper, FilterTitle} from './styles/Filter.styled';
+import { Wrapper, FilterTitle, StyledSelect } from './styles/Filter.styled';
+import {options} from '../data/options';
 
-
-const Filter = ({onChange, value}) => {
-
+const Filter = ({ onChange }) => {
 
   return (
     <Wrapper>
-     <FilterTitle>Filter by Technologies and libraries</FilterTitle>
-      <select onChange={onChange} value={value}>
-      <option value="All">All</option>
-      <option value="HTML">HTML</option>
-      <option value="JavaScript">JavaScript</option>
-      <option value="React">React</option>
-      <option value="CSS">CSS</option>
-      <option value="SCSS">SCSS</option>
-      </select>
+     <FilterTitle>Filter projects by technologies and libraries</FilterTitle>
+      <StyledSelect options={options} onChange={onChange}/>
     </Wrapper>
   )
 }
