@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Item = styled.li`
-    width: 100%;
+    background-color: #fff;
     margin: 20px;
 
     @media screen and (min-width: 768px) {
@@ -16,7 +16,16 @@ export const Item = styled.li`
 
 export const Wrapper = styled.div`
     padding: 20px;
-    background-color: #fff;
+    display: grid;
+    gap: 10px;
+   
+    @media screen and (min-width: 768px) {
+        grid-auto-rows: 20px 70px 20px 50px 20px 20px 20px;
+    }
+
+    @media screen and (min-width: 1280px) {
+        grid-auto-rows: 20px 80px 20px 40px 20px 20px 20px;   
+    }
 `;
 
 const text = `
@@ -26,7 +35,6 @@ const text = `
     letter-spacing: 0.02em;
     color: var(--text-color);
     text-align: justify;
-    margin-bottom: 10px;
 
     @media screen and (min-width: 768px) {
         font-size: 14px;
@@ -40,7 +48,6 @@ const text = `
 export const Title = styled.p`
     ${text}
     font-weight: 600;
-
 `;
 
 export const Description = styled.span`
@@ -56,6 +63,7 @@ export const Link = styled.a`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
+    margin-bottom: 0;
 
     &::after {
         position: absolute;
@@ -75,3 +83,4 @@ export const Link = styled.a`
             left: 0; 
         }
 `;
+

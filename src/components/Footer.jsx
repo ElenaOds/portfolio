@@ -1,10 +1,14 @@
-
 import { StyledFooter, List, StyledGithub, StyledLinkedin, StyledTeletram, StyledTelephone, StyledEmail, StyledLink, StyledTextLink, Text } from './styles/Footer.styled';
-
+import scrollToTop from '../helpers/ScrollToTop';
 
 const Footer = () => {
 
   const date = new Date().getFullYear();
+
+  const handleClick = (e) => {
+    e.target.blur();
+    scrollToTop();
+  }
 
   return (
     <StyledFooter id='contact'>
@@ -63,7 +67,7 @@ const Footer = () => {
       <li>
         <StyledTextLink to="projects" 
         aria-label='projects'
-        onClick={(e) => e.target.blur()}>
+        onClick={handleClick}>
         Projects
         </StyledTextLink>
       </li>
