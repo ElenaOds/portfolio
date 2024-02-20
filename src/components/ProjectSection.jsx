@@ -18,7 +18,7 @@ return (
     <Container>
       <SectionTitle>PROJECTS</SectionTitle> 
       <ProjectsSwiper/>
-      <StyledLink to='/projects'  onClick={handleClick}>Click for details</StyledLink>
+      <StyledLink to='/projects' onClick={handleClick}>Click for details</StyledLink>
     </Container>
    </Section>
   )

@@ -3,6 +3,7 @@ import { Section } from '../components/styles/Section.styled';
 import { Container } from '../components/styles/Container.styled';
 import { List, Title } from '../components/styles/ProjectsPage.styled';
 
+import ButtonUp from '../components/ArrowUp';
 import Projects from '../data/projects.json';
 import Card from '../components/Card';
 import Filter from '../components/Filter';
@@ -20,8 +21,9 @@ const Project = () => {
   }
  }
 
-
   return (
+    <>
+    <ButtonUp/>
     <Section>
       <Container>
       <Title>Projects</Title>
@@ -35,6 +37,8 @@ const Project = () => {
      
     </Container>
     </Section>
+    </>
+
   )
 }
 

@@ -31,7 +31,6 @@ export const Button = styled(HashLink)`
         padding: 8px;
         width: 110px;
         height: 36px;
-        font-size: 16px;
     }
 
     @media screen and (min-width: 1280px) {

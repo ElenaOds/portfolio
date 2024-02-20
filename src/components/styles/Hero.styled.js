@@ -42,6 +42,10 @@ export const Overlay = styled.div`
     }
 `;
 
+export const HeroSection = styled.section`
+    padding: 0 0 20px 0;
+`;
+
 export const Wrapper = styled.div`
     padding: 60px 0;
 
@@ -117,3 +121,7 @@ export const Subtitle = styled.h2`
           }
 `;
 
+export const LinksWrapper = styled.div`
+    display: flex;
+    gap: 20px;
+`

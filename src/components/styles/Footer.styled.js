@@ -5,6 +5,7 @@ import { ReactComponent as Github} from '../../assets/icons/github.svg';
 import { ReactComponent as Telegram} from '../../assets/icons/telegram.svg';
 import { ReactComponent as Telephone} from '../../assets/icons/phone.svg';
 import { ReactComponent as Email} from '../../assets/icons/mail.svg';
+import { ReactComponent as Arrow} from '../../assets/icons/arrow.svg';
 
 export const StyledFooter = styled.footer`
     width: 100%;
@@ -185,3 +186,21 @@ export const Text = styled.p`
     ${text}
     text-align: center;
 `
+
+
+export const StyledArrow = styled(Arrow)`
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        fill: var(--hover-color);
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 40px;
+        height: 40px;
+    }
+`;

@@ -1,5 +1,5 @@
-import { Wrapper, FilterTitle, StyledSelect } from './styles/Filter.styled';
 import {options} from '../data/options';
+import { Wrapper, FilterTitle, StyledSelect } from './styles/Filter.styled';
 
 const Filter = ({ onChange }) => {
 
@@ -8,14 +8,15 @@ const Filter = ({ onChange }) => {
       ...styles,
       background: isSelected ? 'linear-gradient(-45deg, #9925ea, #338aff, #9925ea)' : isFocused ? '#80b6ff' : 'white',
     }),
-    control: (provided, {isFocused}) => ({
-      ...provided,
-      border: isFocused ? "1px solid #9925ea" : "1px solid #cccccc",
+    control: base => ({
+      ...base,
+      border:  "1px solid #cccccc",
+      boxShadow: "none",
       "&:hover": {
-        border: "1px solid  #338aff",
-        boxShadow: "0px 0px 6px #9925ea",
-      },
-    }),
+          border: "1px solid  #338aff",
+          boxShadow: "0px 0px 6px #9925ea",
+        },
+    })
   }
 
   return (

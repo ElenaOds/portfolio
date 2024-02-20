@@ -19,9 +19,11 @@ const text = `
 
 export const List = styled.ul`
     display: flex;
+    flex-direction: column;
     gap: 20px;
 
     @media screen and (min-width: 768px) {
+        flex-direction: row;
         gap: 50px;
     }
 

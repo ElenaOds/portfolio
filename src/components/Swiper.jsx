@@ -1,11 +1,11 @@
-import carousel1 from '../assets/projects/marketplace-landing.jpg';
-import carousel2 from '../assets/projects/ecosolution.jpg';
-import carousel3 from '../assets/projects/flower.jpg';
-import carousel4 from '../assets/projects/goose-track.jpg';
-import carousel5 from '../assets/projects/icecream.jpg';
-import carousel6 from '../assets/projects/movies.jpg';
-import carousel7 from '../assets/projects/tweets.jpg';
-import carousel8 from '../assets/projects/webstudio.jpg';
+import carousel1 from '../assets/projects/marketplace-landing.webp';
+import carousel2 from '../assets/projects/ecosolution.webp';
+import carousel3 from '../assets/projects/flower.webp';
+import carousel4 from '../assets/projects/goose-track.webp';
+import carousel5 from '../assets/projects/icecream.webp';
+import carousel6 from '../assets/projects/movies.webp';
+import carousel7 from '../assets/projects/tweets.webp';
+import carousel8 from '../assets/projects/webstudio.webp';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {  Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
