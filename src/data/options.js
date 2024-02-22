@@ -2,6 +2,7 @@ export const options = [
     {value: 'All', label: 'All'},
     {value: 'Axios', label: 'Axios'},
     {value: 'Bootstrap', label: 'Bootstrap'},
+    {value: 'CSS', label: 'CSS'},
     {value: 'Date-fns', label: 'Date-fns'},
     {value: 'Datepicker', label: 'Datepicker'},
     {value: 'Emotion', label: 'Emotion'},
