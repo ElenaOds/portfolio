@@ -20,6 +20,7 @@ export const options = [
     {value: 'React-toastify', label: 'React-toastify'},
     {value: 'Redux', label: 'Redux'},
     {value: 'SCSS', label: 'SCSS'},
+    {value: 'Slick-slider', label: 'Slick-slider'},
     {value: 'Spinner', label: 'Spinner'},
     {value: 'Swiper', label: 'Swiper'},
     {value: 'Typeform', label: 'Typeform'},
