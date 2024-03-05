@@ -15,7 +15,7 @@
       "title": "Tweet application",
       "description": "Tweet application displays users' cards with possibility to follow/unfollow users and allows to set filter by 'all users', 'followed users' and 'unfollowed users' with 'Load more' button",
       "type": "pet project",
-      "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Redux", "Spinner", "MockApi", "Emotion"],
+      "technologies": ["React", "JavaScript",  "React-router-dom", "Axios", "Redux", "Spinner", "MockApi", "Emotion", "React-toastify"],
       "github": "https://github.com/ElenaOds/tweet-app",
       "livePage": "https://elenaods.github.io/tweet-app"
     },
@@ -37,7 +37,7 @@
       "title": "Flowers",
       "description": "One-page web-site for Flowers store with adaptive design, burger menu, subscribe and contact forms. The web-site has been created with Parcel, has basic animation and styled using preprocessor SCSS",
       "type": "pet project",
-      "technologies": ["HTML", "SCSS", "Parcel"],
+      "technologies": ["HTML", "SCSS", "Parcel", "JavaScript", "Slick-slider"],
       "github": "https://github.com/ElenaOds/flowers",
       "livePage": "https://elenaods.github.io/flowers/"
     },
