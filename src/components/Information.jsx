@@ -24,7 +24,7 @@ const Information = () => {
 
         <li>
             <Title>Experience</Title> 
-            <Text>September 2023 - now</Text>
+            <Text>September 2023 - May 2024</Text>
             <Text>Company - IT Sprout</Text>
             <Text>Position - Frontend developer (internship)</Text>
         </li>

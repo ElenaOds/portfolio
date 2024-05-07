@@ -18,14 +18,7 @@ export const Wrapper = styled.div`
     padding: 20px;
     display: grid;
     gap: 10px;
-   
-    @media screen and (min-width: 768px) {
-        grid-auto-rows: 20px 70px 20px 50px 20px 20px 20px;
-    }
-
-    @media screen and (min-width: 1280px) {
-        grid-auto-rows: 20px 80px 20px 40px 20px 20px 20px;   
-    }
+    grid-auto-flow: row;
 `;
 
 const text = `

@@ -18,17 +18,21 @@ const text = `
 `;
 
 export const List = styled.ul`
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+     display: grid;
+     grid-template-rows: 1fr;
+     gap: 20px;
 
-    @media screen and (min-width: 768px) {
-        flex-direction: row;
-        gap: 50px;
+    @media screen and (min-width: 480px) {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
+    }
+
+    @media screen and (min-width: 680px) {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     @media screen and (min-width: 1280px) {
-        gap: 60px;  
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 `;
 
