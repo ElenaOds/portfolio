@@ -18,12 +18,8 @@ export const List = styled.ul`
     gap: 20px;
     flex-wrap: wrap;
 
-    @media screen and (min-width: 768px) {
-        gap: 30px;
-    }
 
     @media screen and (min-width: 1280px) {
-       
         justify-content: space-between;
         flex-wrap: nowrap;
     }
@@ -40,8 +36,8 @@ export const HtmlIcon = styled(Html)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -55,8 +51,8 @@ export const CssIcon = styled(Css)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -70,8 +66,8 @@ export const JsIcon = styled(Js)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -85,8 +81,8 @@ export const TsIcon = styled(Ts)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -100,8 +96,8 @@ export const ReactIcon = styled(React)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -115,8 +111,8 @@ export const ReduxIcon = styled(Redux)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -130,8 +126,8 @@ export const ScssIcon = styled(Scss)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -145,8 +141,8 @@ export const EmotionIcon = styled(Emotion)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 `;
 
@@ -160,8 +156,8 @@ export const StyledIcon = styled(Styled)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+       width: 80px;
+        height: 80px;
     }
 `;
 
@@ -175,7 +171,7 @@ export const BootstrapIcon = styled(Bootstrap)`
     }
 
     @media screen and (min-width: 1280px) {
-        width: 100px;
-        height: 100px;
+       width: 80px;
+        height: 80px;
     }
 `;

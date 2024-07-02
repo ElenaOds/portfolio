@@ -22,8 +22,6 @@ export const Button = styled(HashLink)`
     cursor: pointer;
     text-decoration: none;
 
-  
-
     &:hover,
     &:focus {
         background-position: 185% 50%;   

@@ -47,14 +47,14 @@ export const HeroSection = styled.section`
 `;
 
 export const Wrapper = styled.div`
-    padding: 60px 0;
+    padding: 40px 0;
 
     @media screen and (min-width: 768px) {
-        padding: 100px 0;
+        padding: 60px 0;
     }
 
     @media screen and (min-width: 1280px) {
-        padding: 150px 0;
+        padding: 80px 0;
     }
 `
 
