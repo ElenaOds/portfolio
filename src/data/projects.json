@@ -6,7 +6,7 @@
       "description": "Commercial web-site with responsive design to advertise marketplace of auto parts consists of few pages with basic description of the project and forms to collect the feedback from potential clients",
       "type": "commercial",
       "technologies": ["JavaScript", "React", "React-router-dom", "i18n", "Bootstrap", "SCSS", "Helmet", "Typeform"],
-      "livePage": "https://promo.heyboss.online/"
+      "livePage": "https://marketplace-landing-29h.pages.dev"
     },
 
     {

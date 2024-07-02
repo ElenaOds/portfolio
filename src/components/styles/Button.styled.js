@@ -22,9 +22,11 @@ export const Button = styled(HashLink)`
     cursor: pointer;
     text-decoration: none;
 
+  
+
     &:hover,
     &:focus {
-        background-position: 185% 50%;
+        background-position: 185% 50%;   
     }
 
     @media screen and (min-width: 768px) {

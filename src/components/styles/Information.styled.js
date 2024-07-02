@@ -8,31 +8,18 @@ const text = `
     color: var(--text-color);
     margin-bottom: 10px;
 
-    @media screen and (min-width: 768px) {
-        font-size: 16px;
-    }
-
     @media screen and (min-width: 1280px) {
-        font-size: 18px;    
+        font-size: 16px;    
     }
 `;
 
 export const List = styled.ul`
      display: grid;
-     grid-template-rows: 1fr;
      gap: 20px;
+     grid-template-columns: repeat(auto-fit, 200px);
 
-    @media screen and (min-width: 480px) {
-        grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
-    }
-
-    @media screen and (min-width: 680px) {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    @media screen and (min-width: 1280px) {
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+      @media screen and (min-width: 1280px) {
+        grid-template-columns: repeat(auto-fit, 320px);
     }
 `;
 
