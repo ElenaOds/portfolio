@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e2c94ef6.css",
-    "main.js": "/portfolio/static/js/main.ff339b19.js",
-    "static/css/487.f793d30b.chunk.css": "/portfolio/static/css/487.f793d30b.chunk.css",
-    "static/js/487.3cb856a2.chunk.js": "/portfolio/static/js/487.3cb856a2.chunk.js",
-    "static/js/879.2cbe9e27.chunk.js": "/portfolio/static/js/879.2cbe9e27.chunk.js",
+    "main.js": "/portfolio/static/js/main.bdad7194.js",
+    "static/css/554.f7505105.chunk.css": "/portfolio/static/css/554.f7505105.chunk.css",
+    "static/js/554.5f8bd72c.chunk.js": "/portfolio/static/js/554.5f8bd72c.chunk.js",
+    "static/js/879.b771ca98.chunk.js": "/portfolio/static/js/879.b771ca98.chunk.js",
     "static/js/472.c18f2218.chunk.js": "/portfolio/static/js/472.c18f2218.chunk.js",
     "static/js/514.cfcedc6a.chunk.js": "/portfolio/static/js/514.cfcedc6a.chunk.js",
     "static/media/emotion.svg": "/portfolio/static/media/emotion.69544e3e904eb80a812f2a0116d2f8e2.svg",
@@ -19,14 +19,17 @@
     "static/media/certificate_p2.webp": "/portfolio/static/media/certificate_p2.40b0ebf4b618ba2934c9.webp",
     "static/media/certificate.webp": "/portfolio/static/media/certificate.8b426e36ef25229d6a73.webp",
     "static/media/hero-mobile@1x.jpg": "/portfolio/static/media/hero-mobile@1x.10bec601bc930afb3cf1.jpg",
+    "static/media/starwars.webp": "/portfolio/static/media/starwars.e77cc59a7b1bc101ccf2.webp",
     "static/media/webstudio.webp": "/portfolio/static/media/webstudio.b20adbe228637e75056a.webp",
     "static/media/hero-tablet@1x.jpg": "/portfolio/static/media/hero-tablet@1x.8b30e7cb9c3a2ea48fc0.jpg",
     "static/media/goose-track.webp": "/portfolio/static/media/goose-track.386a395dd7b1a36e42a3.webp",
     "static/media/icecream.webp": "/portfolio/static/media/icecream.ebe07c8ef34c85bf28fc.webp",
+    "static/media/events.webp": "/portfolio/static/media/events.fa925257b4d9a9071ca0.webp",
     "static/media/tweets.webp": "/portfolio/static/media/tweets.fb6236490706c29131c9.webp",
     "static/media/flower.webp": "/portfolio/static/media/flower.7fcf8df284e7b059da02.webp",
     "static/media/styled-components.svg": "/portfolio/static/media/styled-components.85a7ed7baaeffeae87087bc17ee56d86.svg",
     "static/media/react.svg": "/portfolio/static/media/react.b2bf7621a170b9292c916a0bed69f575.svg",
+    "static/media/next.svg": "/portfolio/static/media/next.68730dd1c97ac91497dd0881d48cb7e3.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.3458930145250995be019da11881a37a.svg",
     "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.bb9260babc11855bfa0c4b014c2e4e52.svg",
     "index.html": "/portfolio/index.html",
@@ -41,16 +44,17 @@
     "static/media/arrow.svg": "/portfolio/static/media/arrow.3b2b63f64b0ef3d5c0ab7191b05b16e3.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.8c594e438c6006058e37db2f56b78c2c.svg",
     "static/media/css.svg": "/portfolio/static/media/css.fd9c38119481c252734c1c5da392f3a7.svg",
+    "static/media/tailwind.svg": "/portfolio/static/media/tailwind.90e88eb907a8388cb2fd2f3565346de2.svg",
     "main.e2c94ef6.css.map": "/portfolio/static/css/main.e2c94ef6.css.map",
-    "main.ff339b19.js.map": "/portfolio/static/js/main.ff339b19.js.map",
-    "487.f793d30b.chunk.css.map": "/portfolio/static/css/487.f793d30b.chunk.css.map",
-    "487.3cb856a2.chunk.js.map": "/portfolio/static/js/487.3cb856a2.chunk.js.map",
-    "879.2cbe9e27.chunk.js.map": "/portfolio/static/js/879.2cbe9e27.chunk.js.map",
+    "main.bdad7194.js.map": "/portfolio/static/js/main.bdad7194.js.map",
+    "554.f7505105.chunk.css.map": "/portfolio/static/css/554.f7505105.chunk.css.map",
+    "554.5f8bd72c.chunk.js.map": "/portfolio/static/js/554.5f8bd72c.chunk.js.map",
+    "879.b771ca98.chunk.js.map": "/portfolio/static/js/879.b771ca98.chunk.js.map",
     "472.c18f2218.chunk.js.map": "/portfolio/static/js/472.c18f2218.chunk.js.map",
     "514.cfcedc6a.chunk.js.map": "/portfolio/static/js/514.cfcedc6a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e2c94ef6.css",
-    "static/js/main.ff339b19.js"
+    "static/js/main.bdad7194.js"
   ]
 }
