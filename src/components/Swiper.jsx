@@ -6,6 +6,8 @@ import carousel5 from '../assets/projects/icecream.webp';
 import carousel6 from '../assets/projects/movies.webp';
 import carousel7 from '../assets/projects/tweets.webp';
 import carousel8 from '../assets/projects/webstudio.webp';
+import carousel9 from '../assets/projects/events.webp';
+import carousel10 from '../assets/projects/starwars.webp';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {  Pagination, Navigation, EffectCoverflow } from 'swiper/modules';
@@ -50,6 +52,12 @@ const ProjectsSwiper = () => {
             </SwiperSlide>
             <SwiperSlide>
               <img src={carousel8} alt='webstudio' loading="lazy"/>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={carousel9} alt='marketplace' loading="lazy"/>
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={carousel10} alt='marketplace' loading="lazy"/>
             </SwiperSlide>
           
           </Swiper>

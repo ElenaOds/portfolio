@@ -84,6 +84,28 @@
       "technologies": ["JavaScript", "React", "Emotion", "Swiper", "Formik", "Yup", "React-toastify", "React-countup"],
       "github": "https://github.com/ElenaOds/ecosolution",
       "livePage": "https://elenaods.github.io/ecosolution/"
+    },
+
+    {
+      "id": "9",
+      "image": "./images/starwars.jpg",
+      "title": "Starwars",
+      "description": "A web-application which displays a paginated list of starwars heroes with main information and allows to get details of each hero on a separate page as flow chart with main films and ships.",
+      "type": "pet project",
+      "technologies": ["JavaScript", "React", "Next", "Tailwind", "Axios", "React-flow", "Spinner"],
+      "github": "https://github.com/ElenaOds/starwars",
+      "livePage": "https://starwars-pink.vercel.app/"
+    },
+
+    {
+      "id": "10",
+      "image": "./images/events.jpg",
+      "title": "Events registration",
+      "description": "A web-site which consists on backend and frontend parts. It allows to search and get the list of possible events as well as register for specific event and see the list of participants.",
+      "type": "pet project",
+      "technologies": ["JavaScript", "React", "Styled components", "Axios", "Redux", "React-toastify", "Spinner", "Formik", "Yup", "React-router-dom", "Node"],
+      "github": "https://github.com/ElenaOds/events_project",
+      "livePage": "https://elenaods.github.io/events_project"
     }
 
   ]

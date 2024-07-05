@@ -9,7 +9,8 @@ import { ReactComponent as Scss} from '../../assets/icons/scss.svg';
 import { ReactComponent as Emotion} from '../../assets/icons/emotion.svg';
 import { ReactComponent as Styled} from '../../assets/icons/styled-components.svg';
 import { ReactComponent as Bootstrap} from '../../assets/icons/bootstrap.svg';
-
+import { ReactComponent as Next} from '../../assets/icons/next.svg';
+import { ReactComponent as Tailwind} from '../../assets/icons/tailwind.svg';
 
 export const List = styled.ul`
     display: flex;
@@ -162,6 +163,36 @@ export const StyledIcon = styled(Styled)`
 `;
 
 export const BootstrapIcon = styled(Bootstrap)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+       width: 80px;
+        height: 80px;
+    }
+`;
+
+export const NextIcon = styled(Next)`
+    width: 50px;
+    height: 50px;
+
+    @media screen and (min-width: 768px) {
+        width: 70px;
+        height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+       width: 80px;
+        height: 80px;
+    }
+`;
+
+export const TailwindIcon = styled(Tailwind)`
     width: 50px;
     height: 50px;
 
