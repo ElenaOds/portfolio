@@ -6,11 +6,33 @@
       "description": "Commercial web-site with responsive design to advertise marketplace of auto parts consists of few pages with basic description of the project and forms to collect the feedback from potential clients",
       "type": "commercial",
       "technologies": ["JavaScript", "React", "React-router-dom", "i18n", "Bootstrap", "SCSS", "Helmet", "Typeform"],
-      "livePage": "https://marketplace-landing-29h.pages.dev"
+      "livePage": "https://cars-parts.xyz/"
     },
 
     {
       "id": "2",
+      "image": "./images/flower.jpg",
+      "title": "Flowers",
+      "description": "One-page web-site for Flowers store with adaptive design, burger menu, subscribe and contact forms. The web-site has been created with Parcel, has basic animation and styled using preprocessor SCSS",
+      "type": "pet project",
+      "technologies": ["HTML", "SCSS", "Parcel", "JavaScript", "Slick-slider"],
+      "github": "https://github.com/ElenaOds/flowers",
+      "livePage": "https://elenaods.github.io/flowers/"
+    },
+
+    {
+      "id": "3",
+      "image": "./images/ecosolution.jpg",
+      "title": "Ecosolution",
+      "description": "Web-site for Energy Company with adaptive design, burger menu on all devices, fixed header, automatic counter, slider, accordion and a contact form with fields validation",
+      "type": "pet project",
+      "technologies": ["JavaScript", "React", "Emotion", "Swiper", "Formik", "Yup", "React-toastify", "React-countup"],
+      "github": "https://github.com/ElenaOds/ecosolution",
+      "livePage": "https://elenaods.github.io/ecosolution/"
+    },
+
+    {
+      "id": "4",
       "image": "./images/tweets.jpg",
       "title": "Tweet application",
       "description": "Tweet application displays users' cards with possibility to follow/unfollow users and allows to set filter by 'all users', 'followed users' and 'unfollowed users' with 'Load more' button",
@@ -20,28 +42,6 @@
       "livePage": "https://elenaods.github.io/tweet-app"
     },
 
-    {
-      "id": "3",
-      "image": "./images/goose-track.jpg",
-      "title": "Goose-track",
-      "description": "Fullstack application available for registered users which allows to add/change personal data, maintain tasks in calendar. Login credentials: Email: test2024@mail.com, Password: Test2024",
-      "type": "pet project",
-      "technologies": ["JavaScript", "CSS", "React", "React-router-dom", "Axios", "Redux", "Formik", "Yup", "Spinner", "Date-fns", "Datepicker", "React-toastify", "Node"],
-      "github": "https://github.com/ElenaOds/goose_track",
-      "livePage": "https://elenaods.github.io/goose_track/"
-    },
-
-    {
-      "id": "4",
-      "image": "./images/flower.jpg",
-      "title": "Flowers",
-      "description": "One-page web-site for Flowers store with adaptive design, burger menu, subscribe and contact forms. The web-site has been created with Parcel, has basic animation and styled using preprocessor SCSS",
-      "type": "pet project",
-      "technologies": ["HTML", "SCSS", "Parcel", "JavaScript", "Slick-slider"],
-      "github": "https://github.com/ElenaOds/flowers",
-      "livePage": "https://elenaods.github.io/flowers/"
-    },
-      
     {
       "id": "5",
       "image": "./images/icecream.jpg",
@@ -59,7 +59,7 @@
       "title": "WebStudio",
       "description": "Web-site for web-studio consists of two pages with navigation and burger menu. The web-site has been created with HTML, has adaptive design, order and subscription forms",
       "type": "pet project",
-      "technologies": ["HTML", "SCSS",  "JavaScript"],
+      "technologies": ["HTML", "SCSS", "JavaScript"],
       "github": "https://github.com/ElenaOds/WebStudio",
       "livePage": "https://elenaods.github.io/WebStudio/"
     },
@@ -77,13 +77,13 @@
   
     {
       "id": "8",
-      "image": "./images/ecosolution.jpg",
-      "title": "Ecosolution",
-      "description": "Web-site for Energy Company with adaptive design, burger menu on all devices, fixed header, automatic counter, slider, accordion and a contact form with fields validation",
+      "image": "./images/goose-track.jpg",
+      "title": "Goose-track",
+      "description": "Fullstack application available for registered users which allows to add/change personal data, maintain tasks in calendar. Login credentials: Email: test2024@mail.com, Password: Test2024",
       "type": "pet project",
-      "technologies": ["JavaScript", "React", "Emotion", "Swiper", "Formik", "Yup", "React-toastify", "React-countup"],
-      "github": "https://github.com/ElenaOds/ecosolution",
-      "livePage": "https://elenaods.github.io/ecosolution/"
+      "technologies": ["JavaScript", "CSS", "React", "React-router-dom", "Axios", "Redux", "Formik", "Yup", "Spinner", "Date-fns", "Datepicker", "React-toastify", "Node"],
+      "github": "https://github.com/ElenaOds/goose_track",
+      "livePage": "https://elenaods.github.io/goose_track/"
     },
 
     {
